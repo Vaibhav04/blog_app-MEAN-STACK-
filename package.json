@@ -1,0 +1,26 @@
+{
+  "name": "blog_app",
+  "version": "1.0.0",
+  "description": "Blog_app_with_angular2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaibhav04/blog_app-MEAN-STACK-.git"
+  },
+  "keywords": [
+    "blog_app_using_mean_stack"
+  ],
+  "author": "vaibhav chawla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vaibhav04/blog_app-MEAN-STACK-/issues"
+  },
+  "homepage": "https://github.com/Vaibhav04/blog_app-MEAN-STACK-#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.12.5"
+  }
+}
