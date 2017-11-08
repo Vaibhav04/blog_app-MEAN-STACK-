@@ -1,26 +1,35 @@
 {
-  "name": "blog_app",
+  "name": "mean-ang2",
   "version": "1.0.0",
-  "description": "Blog_app_with_angular2",
+  "description": "MEAN Stack with Angular 2",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "cd client && ng build --prod --env=prod"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vaibhav04/blog_app-MEAN-STACK-.git"
+    "url": "git+https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial.git"
   },
   "keywords": [
-    "blog_app_using_mean_stack"
+    "MEAN",
+    "Stack",
+    "Angular",
+    "2",
+    "Application"
   ],
-  "author": "vaibhav chawla",
+  "author": "David Acosta",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vaibhav04/blog_app-MEAN-STACK-/issues"
+    "url": "https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial/issues"
   },
-  "homepage": "https://github.com/Vaibhav04/blog_app-MEAN-STACK-#readme",
+  "homepage": "https://github.com/gugui3z24/MEAN-Stack-With-Angular-2-Tutorial#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "mongoose": "^4.12.5"
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.3",
+    "mongoose": "^4.13.0"
   }
 }
